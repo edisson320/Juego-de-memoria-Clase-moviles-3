@@ -3,6 +3,8 @@
 
 document.addEventListener("DOMContentLoaded", function(){
 
+    
+
     //***Imagenes para la funcion***
     let imagenes = [
         {img:"imagens/ReyLeon.jpg", 
@@ -56,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function(){
             img.addEventListener("click", descubrirImagen)
         }
     }
+
     //Funtio para descubrir una imagen
     function descubrirImagen(){
         let imgClick = this.getAttribute("data-id");
