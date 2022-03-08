@@ -1,0 +1,34 @@
+
+
+.tablero{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 600px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    perspective: 1000px;
+    background: rgb(38, 153, 199);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: calibri;
+}
+
+/*Styles de color para el boton de inicio o nuevo Juego*/
+.nuevo-juego {
+    cursor: pointer;
+    background: linear-gradient(rgb(57, 44, 243), rgb(90, 64, 238));
+    padding: 20px;
+    border-radius: 50px;
+    border: white 5px solid;
+    font-size: 130%;
+}
